@@ -13,4 +13,10 @@
     </li>
   </ul>
 
+  <ul>
+    Users to invite:
+    <li ng-repeat="user in users | uninvited:party">
+      <div>[[ user.emails[0].address ]]</div>
+    </li>
+  </ul>
 </template>

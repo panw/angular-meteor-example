@@ -4,6 +4,8 @@ function($scope, $collection) {
 
   $collection(Parties).bind($scope, 'parties', true, true);
 
+  $scope.orderProperty = 'name';
+
   $scope.remove = function(party) {
     $scope.parties.splice($scope.parties.indexOf(party), 1);
   };
