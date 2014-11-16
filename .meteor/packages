@@ -4,9 +4,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 urigo:angular
 urigo:angular-ui-router
 accounts-password
 accounts-ui
-
